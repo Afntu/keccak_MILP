@@ -1,0 +1,274 @@
+
+Gurobi 9.5.1 (linux64, gurobi_cl) logging started Sun Jul  3 16:04:30 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-03-04
+Using license file /home/afntu/gurobi.lic
+
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Error reading LP format file keccak_milp0.lp at line 7
+Malformed term in expression
+Neighboring tokens: " - x_0_0_3_0 x_0_0_4_0 - p_0_0_0 + 2d_0_0_0 >= "
+
+
+Error 10012: Unable to read file
+
+
+Gurobi 9.5.1 (linux64, gurobi_cl) logging started Sun Jul  3 19:27:42 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-03-04
+Using license file /home/afntu/gurobi.lic
+
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Error reading LP format file keccak_milp0.lp at line 7
+Malformed term in expression
+Neighboring tokens: " - x_0_0_3_0 x_0_0_4_0 - p_0_0_0 + 2d_0_0_0 >= "
+
+
+Error 10012: Unable to read file
+
+
+Gurobi 9.5.1 (linux64, gurobi_cl) logging started Sun Jul  3 19:38:44 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-03-04
+Using license file /home/afntu/gurobi.lic
+
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Error reading LP format file keccak_milp0.lp at line 7
+Malformed term in expression
+Neighboring tokens: " - x_0_0_3_0 x_0_0_4_0 - p_0_0_0 + 2d_0_0_0 >= "
+
+
+Error 10012: Unable to read file
+
+
+Gurobi 9.5.1 (linux64, gurobi_cl) logging started Sun Jul  3 19:50:01 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-03-04
+Using license file /home/afntu/gurobi.lic
+
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Error reading LP format file keccak_milp_n_0_l_0.lp at line 39
+Unrecognized constraint RHS or sense
+Neighboring tokens: " >= x_0_0_0_0 d_0_0_0 >= x_0_0_1_0 d_0_0_0 >= "
+
+
+Error 10012: Unable to read file
+
+
+Gurobi 9.5.1 (linux64, gurobi_cl) logging started Sun Jul  3 20:22:22 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-03-04
+Using license file /home/afntu/gurobi.lic
+
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Warning: Numeric variable name in LP file ('2d_0_0_0') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file keccak_milp_n_0_l_0.lp
+Reading time = 0.03 seconds
+: 571 rows, 345 columns, 1880 nonzeros
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 571 rows, 345 columns and 1880 nonzeros
+Model fingerprint: 0x8225914f
+Variable types: 115 continuous, 230 integer (170 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.07 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 9.5.1 (linux64, gurobi_cl) logging started Sun Jul  3 22:54:44 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-03-04
+Using license file /home/afntu/gurobi.lic
+
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Warning: Numeric variable name in LP file ('2d_0_0_0') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file keccak_milp_n_0_l_0.lp
+Reading time = 0.03 seconds
+: 571 rows, 345 columns, 1880 nonzeros
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 571 rows, 345 columns and 1880 nonzeros
+Model fingerprint: 0x8225914f
+Variable types: 115 continuous, 230 integer (170 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.07 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Wrote result file 'keccak_milp_n_0_l_0.sol'
+
+
+Gurobi 9.5.1 (linux64, gurobi_cl) logging started Sun Jul  3 23:04:21 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-03-04
+Using license file /home/afntu/gurobi.lic
+
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Warning: Numeric variable name in LP file ('2d_0_0_0') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file keccak_milp_n_0_l_0.lp
+Reading time = 0.01 seconds
+: 571 rows, 345 columns, 1880 nonzeros
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 571 rows, 345 columns and 1880 nonzeros
+Model fingerprint: 0x8225914f
+Variable types: 115 continuous, 230 integer (170 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Wrote result file 'keccak_milp_n_0_l_0.sol'
+
+
+Gurobi 9.5.1 (linux64, gurobi_cl) logging started Sun Jul  3 23:19:45 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-03-04
+Using license file /home/afntu/gurobi.lic
+
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Warning: Numeric variable name in LP file ('2d_0_0_0') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file keccak_milp_n_0_l_4.lp
+Reading time = 0.02 seconds
+: 4561 rows, 2830 columns, 15040 nonzeros
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 4561 rows, 2830 columns and 15040 nonzeros
+Model fingerprint: 0xf28e6660
+Variable types: 990 continuous, 1840 integer (1360 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 9.5.1 (linux64, gurobi_cl) logging started Sun Jul  3 23:20:07 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-03-04
+Using license file /home/afntu/gurobi.lic
+
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Warning: Numeric variable name in LP file ('2d_0_0_0') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file keccak_milp_n_0_l_4.lp
+Reading time = 0.01 seconds
+: 4561 rows, 2830 columns, 15040 nonzeros
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 4561 rows, 2830 columns and 15040 nonzeros
+Model fingerprint: 0xf28e6660
+Variable types: 990 continuous, 1840 integer (1360 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Wrote result file 'keccak_milp_n_0_l_4.sol'
+
+
+Gurobi 9.5.1 (linux64, gurobi_cl) logging started Sun Jul  3 23:36:32 2022
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2023-03-04
+Using license file /home/afntu/gurobi.lic
+
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Error reading LP format file Keccack_MILP_modeling.lp at line 1868
+Malformed term in expression
+Neighboring tokens: " s x_0_2_2_0 >= 0 e_0_2_2_0 - p_0_1_0 >= 0 "
+
+
+Error 10012: Unable to read file
+

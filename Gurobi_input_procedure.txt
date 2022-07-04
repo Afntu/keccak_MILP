@@ -1,0 +1,10 @@
+"Gedit eq.lp &" means eq.lp open in background and we can use terminal as well.
+
+
+After  successful Compilation '.c' file we write 
+
+.....$ "./a.out >> filename.lp" '.lp' format is input format of Gurobi.    
+
+.....$ "gurobi_cl filename.lp" (To check is Gurobi run the whole input file correctly or not.
+
+.....$ "gurobi_cl Result File = filename.sol filename.lp" ( To creat the input file )
