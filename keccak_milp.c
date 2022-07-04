@@ -3,8 +3,6 @@
 int main()
 {
 	int i,j,r,k,n,l,w;
-	n = 1;
-	l = 4;
 	
 	int rho_val[5][5] = { 0, 36, 3, 105, 210, 
 			       1, 300, 10, 45, 66,
@@ -12,10 +10,10 @@ int main()
 			      28, 55, 153, 21, 120,
 			      91, 276, 231, 136, 78 };
 	
-	//printf("Enter the number of rounds\n"); //Number of Rounds is denoted by n.
-	//scanf("%d",&n);
-	//printf("Enter the number of lane\n"); //Number of lane denoted by l and l is in {0,1,2,3,4,5,6} and w = 2^l.
-	//scanf("%d",&l);
+	printf("Enter the number of rounds\n"); //Number of Rounds is denoted by n.
+	scanf("%d",&n);
+	printf("Enter the number of lane\n"); //Number of lane denoted by l and l is in {0,1,2,3,4,5,6} and w = 2^l.
+	scanf("%d",&l);
 	w = (1 << l);  // w = 2^l.
 	printf("Minimize\n");
 	for(r = 0;r < n;r++)
@@ -118,12 +116,8 @@ int main()
 			}
 		}
 	}
-
-// Rho and after that Pi permutation is applied
-	
-	
+// Rho and after that Pi permutation is applied	
 // Sbox Chi Modeling
-	
 		
 	for(r = 0;r < n;r++)
 	{
@@ -206,10 +200,15 @@ printf("\n");
 	         }
 	 }                     
 	for(r = 0;r < n;r++)
+	{	
 		for(i = 0;i < 5;i++)
+		{	
 			for(k = 0;k < w;k++)
+			{	
 				printf("p_%d_%d_%d\n",r,i,k);		
-	
+			}
+		}
+	}
 	for(r = 0;r < n;r++)
 	{
 		for(j = 0;j < 5 ;j++)
